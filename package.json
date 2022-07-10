@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_api_assignment",
+  "version": "1.0.0",
+  "description": "NodeJS API Assignemnt",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "Restful",
+    "API"
+  ],
+  "author": "Branden Murphy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.19"
+  }
+}
