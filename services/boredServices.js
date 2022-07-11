@@ -7,9 +7,9 @@ const boredService = async () => {
     return await axios.get(`${process.env.boredURL}`);
 };
 //setting service for type of activity
-const boredServiceByType = async (id) => {
+const boredServiceByType = async (key) => {
     console.log("Activitys with Types");
-    return await axios.get(`${process.env.boredURL}?type=${id}`);
+    return await axios.get(`${process.env.boredURL}?key=${key}`);
 };
 
 //exporting modules
